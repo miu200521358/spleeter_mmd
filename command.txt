@@ -1,0 +1,11 @@
+conda create -n spleeter pip python=3.8
+
+conda activate spleeter
+
+pip install . && pip install pytest pytest-xdist
+
+pip install numpy-quaternion
+pip install bezier
+pip install tqdm
+pip install cython
+
